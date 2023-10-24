@@ -9,8 +9,8 @@ alert("Siz 3 yildan keyin " + (3 + +age) + " yoshga to'lasiz");
 let kelasi_yosh = prompt("Biron bir yoshni kiriting.");
 
 if (+kelasi_yosh < +age){
-	let kelasi_yos = prompt("Siz allaqachon bu yoshga to'lib bolgansiz.\nIltimmos boshqa yosh kiriting.")
-	alert(kelasi_yos+" ga tolishingizga hali " + (+kelasi_yos - +age ) + " yil bor ekan.")
+	let kelasi_yosh2 = prompt("Siz allaqachon bu yoshga to'lib bolgansiz.\nIltimmos boshqa yosh kiriting.")
+	alert(kelasi_yosh2+" ga tolishingizga hali " + (+kelasi_yos - +age ) + " yil bor ekan.")
 }
  else {
 	alert(kelasi_yosh+" ga tolishingizga hali " + (+kelasi_yosh - +age) + " yil bor ekan.")
